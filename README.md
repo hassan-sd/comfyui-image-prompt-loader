@@ -2,7 +2,7 @@
 
 A powerful custom node for ComfyUI that loads images and automatically extracts prompts from multiple sources. Perfect for working with AI-generated images from Civitai, datasets, and local files.
 
-![Screenshot ](examples/hassan-img-prompt-loader-workflow.png)
+![Screenshot ](examples/hassan-img-prompt-loader-.png)
 *Screenshot showing the node in action with Civitai image loading*
 
 [Workflow example](examples/hassan-img-prompt-loader-workflow.json)
