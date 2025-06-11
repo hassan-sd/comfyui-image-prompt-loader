@@ -5,7 +5,26 @@ A powerful custom node for ComfyUI that loads images and automatically extracts 
 ![Screenshot ](examples/hassan-img-prompt-loader-.png)
 *Screenshot showing the node in action with Civitai image loading*
 
-[Workflow example](examples/hassan-img-prompt-loader-workflow.json)
+[Above image Workflow example](examples/hassan-img-prompt-loader-workflow.json)
+
+
+![Screenshot ](examples/workflow.png)
+[Above Advanced Workflow example](<examples/hassan-Nunchaku Flux - Img2Img + Depth + Outpaint + HR Fix + Upscale + detailer + Civitai Image and Prompt loader.json>)
+![Screenshot](examples/ComfyUI_00066_.png)
+
+1.  Uses  [ComfyUI-nunchaku](https://github.com/mit-han-lab/ComfyUI-nunchaku) for load optimizations
+    
+2.  Uses  this [comfyui-image-prompt-loader](https://github.com/hassan-sd/comfyui-image-prompt-loader)  for loading either local image or civitai image with or without metadata, copies prompt/seed/step values into workflow
+    
+3.  Runs image through Depth
+    
+4.  HighRes Fix is then run
+    
+5.  Outpainted 3 times incrementally instead of a large singular outpaint
+    
+6.  Ultimate Upscaled
+    
+7.  2 x Detailer nodes (Face/Person/whatever extra detailing you want)
 
 ## Features
 
