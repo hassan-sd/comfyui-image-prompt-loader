@@ -1,0 +1,23 @@
+{
+    "name": "ComfyUI Image & Prompt Loader",
+    "description": "Load images with automatic prompt extraction from Civitai URLs, caption files, and EXIF metadata. Features smart dataset detection, multiple input methods, and dynamic preview updates.",
+    "version": "1.0.0",
+    "author": "hassan-sd",
+    "license": "Apache-2.0",
+    "repository": "https://github.com/hassan-sd/comfyui-image-prompt-loader",
+    "install_type": "git-clone",
+    "reference": "https://github.com/hassan-sd/comfyui-image-prompt-loader",
+    "files": [
+        "https://github.com/hassan-sd/comfyui-image-prompt-loader"
+    ],
+    "pip": [
+        "requests"
+    ],
+    "nodename_pattern": "ImagePromptLoader",
+    "title_aux": "Image & Prompt Loader",
+    "category": "image",
+    "tags": ["image", "prompt", "metadata", "exif", "civitai", "caption", "dataset", "loader", "url"],
+    "preemptions": [],
+    "apt": [],
+    "js_path": null
+}
