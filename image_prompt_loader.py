@@ -541,7 +541,7 @@ class ImagePromptLoader:
     def _get_civitai_metadata(self, image_id, api_token=""):
         """Get image metadata from Civitai API"""
         # Use the correct API endpoint structure
-        api_url = f"https://civitai.com/api/v1/images?limit=1&imageId={image_id}"
+        api_url = f"https://civitai.com/api/v1/images?limit=1&nsfw=true&imageId={image_id}"
         print(f"[ImagePromptLoader] Requesting metadata from: {api_url}")
         
         headers = {
