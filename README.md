@@ -78,9 +78,7 @@ The node provides 7 outputs:
 - **CFG Scale**: CFG scale value (if available)
 - **UI Info**: Additional information for debugging
 
-## Example Workflow
 
-*Workflow file will be added here*
 
 ## Caption File Support
 
